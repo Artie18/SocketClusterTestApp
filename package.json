@@ -1,14 +1,16 @@
 {
-  "name": "socketcluster-sample",
+  "name": "socketcluster-test-app",
   "description": "A sample SocketCluster app",
+  "repository": "https://github.com/Artie18/SocketClusterTestApp",
   "version": "1.0.0",
   "contributors": [
     {
-      "name": "Jonathan Gros-Dubois",
-      "email": "grosjona@yahoo.com.au"
+      "name": "Artyom Fedenko",
+      "email": "artyomvirusnyak@gmail.com"
     }
   ],
   "dependencies": {
+    "sc-redis": "0.0.2",
     "connect": "3.0.1",
     "express": "4.12.3",
     "minimist": "1.1.0",
