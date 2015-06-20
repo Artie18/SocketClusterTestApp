@@ -19,13 +19,11 @@ module.exports.run = function (worker) {
 
   scServer.on('connection', function (socket) {
     socket.on('ping', function (data) {
-      count++;
-      console.log('PING', data);
       scServer.global.publish('pong', count);
     });
 
     socket.on('disconnect', function () {
-      clearInterval(interval);
+
     });
   });
 };
